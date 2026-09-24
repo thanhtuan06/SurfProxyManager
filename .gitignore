@@ -1,0 +1,22 @@
+# Du lieu runtime va cau hinh ca nhan (chua khoa rieng WireGuard PrivateKey)
+data/
+*.log
+
+# File thuc thi nhi phan (nguoi dung tu tai qua app hoac script)
+bin/*
+!bin/.keep
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+dist/
+build/
+*.spec
+SurfProxyManager.exe
+
+# Editor & OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
